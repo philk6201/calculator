@@ -1,0 +1,31 @@
+.container {
+    background-color: #08cf5b;
+    border: solid rgb(70, 68, 66) 2px;
+    height: 100%;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    width: 40%;
+}
+
+input#result {
+    height: 90px;
+    padding: 5px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.onclick {
+    color: whitesmoke;
+}
+
+.calculator-key {
+    padding: 0;
+    border: solid 2px;
+}
+
+input.form-control {
+    height: 60px;
+    font-size: 20px;
+    font-style: italic;
+}
