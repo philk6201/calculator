@@ -1,11 +1,9 @@
 .container {
-    background-color: #08cf5b;
+    background-color: #0db955;
     border: solid rgb(70, 68, 66) 2px;
     height: 100%;
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 20px;
-    width: 40%;
 }
 
 input#result {
@@ -15,17 +13,21 @@ input#result {
     color: whitesmoke;
 }
 
-.onclick {
-    color: whitesmoke;
-}
-
 .calculator-key {
     padding: 0;
     border: solid 2px;
+    /*
+border-solid 2px;
+    */
 }
 
 input.form-control {
     height: 60px;
     font-size: 20px;
     font-style: italic;
+}
+
+.col-md-3:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
